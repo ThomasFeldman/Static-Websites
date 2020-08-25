@@ -48,7 +48,7 @@ section{
 }
 
 header{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/hero.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(/img/hero.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
@@ -87,14 +87,14 @@ header{
 /* MAIN NAV */
 
 .main-nav {
-    float: right;
+    float: center;
     list-style: none;
-    margin-top: 55px;
+    margin-top: 530px;
 }
 
 .main-nav li{
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 150px;
 }
 
 .main-nav li a:link,
